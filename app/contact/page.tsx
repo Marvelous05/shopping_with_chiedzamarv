@@ -55,7 +55,7 @@ export default function ContactPage() {
                   <div>
                     <p className="font-medium">Email</p>
                     <Link href="mailto:info@shoppingwithchiedzamarv.com" className="text-purple-600 hover:underline">
-                      info@shoppingwithchiedzamarv.com
+                      mukoyichiedzamarv@gmail.com
                     </Link>
                   </div>
                 </div>

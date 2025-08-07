@@ -9,40 +9,40 @@ export default function HomePage() {
   const featuredProducts = [
     {
       id: 1,
-      name: "Premium Foundation Set",
+      name: "Bran Flakes 1kg",
       brand: "Shopping with Chiedzamarv",
-      price: 45.0,
-      image: "/placeholder.svg?height=300&width=300",
+      price: 6.0,
+      image: "/branflakes.jpeg?height=300&width=300",
       category: "cosmetics",
-      rating: 4.8,
+      rating: 6,
       reviews: 124,
     },
     {
       id: 2,
-      name: "Chocolate Crunch Cereal",
+      name: "Cerevita",
       brand: "Gourmet Crunch",
-      price: 8.5,
-      image: "/placeholder.svg?height=300&width=300",
+      price: 3.0,
+      image: "/cerevita.jpeg?height=300&width=300",
       category: "cereals",
       rating: 4.9,
       reviews: 89,
     },
     {
       id: 3,
-      name: "Luxury Lipstick Collection",
+      name: "Avon Care Derma Lotion",
       brand: "Shopping with Chiedzamarv",
-      price: 32.0,
-      image: "/placeholder.svg?height=300&width=300",
+      price: 6.0,
+      image: "/derma.jpeg?height=300&width=300",
       category: "cosmetics",
       rating: 4.7,
       reviews: 156,
     },
     {
       id: 4,
-      name: "Honey Oat Crunch",
+      name: "Coco Pops",
       brand: "Gourmet Crunch",
-      price: 9.25,
-      image: "/placeholder.svg?height=300&width=300",
+      price: 4.0,
+      image: "/coco.jpeg?height=300&width=300",
       category: "cereals",
       rating: 4.6,
       reviews: 73,
@@ -110,7 +110,7 @@ export default function HomePage() {
               <Link href="/products?category=cosmetics">
                 <CardHeader>
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/avon.png?height=200&width=400"
                     alt="Cosmetics"
                     width={400}
                     height={200}
@@ -138,7 +138,7 @@ export default function HomePage() {
               <Link href="/products?category=cereals">
                 <CardHeader>
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/all.jpeg?height=200&width=400"
                     alt="Cereals"
                     width={400}
                     height={200}

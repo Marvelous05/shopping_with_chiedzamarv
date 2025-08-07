@@ -27,7 +27,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/black.png?height=40&width=40"
               alt="Shopping with Chiedzamarv"
               width={40}
               height={40}
